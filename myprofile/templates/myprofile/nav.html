@@ -1,0 +1,28 @@
+{% load static %}
+
+	 <div id="wrapper">
+    	<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<span class="icon fa-gem"></span>
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h3>Hi, i am </h3>
+								<h1>Shay Mamosebetsi Kekae</h1>
+
+								<p>I am a self taught full stack Python/ Django developer. I also hold an AWS developer associate certificate.</p>
+
+							
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="{% url 'home' %}">Home</a></li>
+								<li><a href="{% url 'about' %}">About</a></li> 
+								<li><a href="{% url 'work' %}">Work</a></li>
+								<li><a href="{% url 'contact' %}">Contact</a></li>
+								<!--<li><a href="#elements">Elements</a></li>-->
+							</ul>
+						</nav>
+					</header>
